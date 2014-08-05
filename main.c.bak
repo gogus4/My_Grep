@@ -1,0 +1,180 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "grep.h"
+#include "utils.h"
+#include "errors.h"
+#include "arg_exception.h"
+
+#define TAILLE_MAX 250
+
+int main(int argc,char ** argv)
+{
+  char ChaineAChercher[100] = "";
+  char Argument[100] = "";
+  char NomFichier[50][50];
+  int ArgNombre[10] = { -1 }; // Tableau permettant de stocker le nombre -A -B -C etc ... ArgNombre[0] = Nombre -A ...
+  int NombreDeLine = 0;
+  char * Error;
+  int i = 0, j = 0, TailleNomFichier = 0, NbreLine = 0, nbFichier = 0;
+  FILE* fichier = NULL;
+  FILE * fichierRecursif;
+  fichierRecursif = fopen("ListeFichier.txt","w+");
+
+  if (arg_help(argc,argv) != 1 ) return 0; // Gestion du --help
+
+  if(arg_long(argc,argv) != 0) return -1; // Gestion des -- et convertion
+
+  for(j=1; j<argc; j++) // Boucle permettant de recuperer les données envoyées en paramètres (argument + chaine à chercher + fichier(s))
+    {
+      if(argv[j][0]== '-')
+        {
+          strcat(Argument,argv[j]);
+
+          if(argv[j][1] == 'A')
+            {
+              //strcat(Argument,argv[j]);
+              j++;
+              ArgNombre[0] = atoi(argv[j]);
+              j++;
+            }
+           else if(argv[j][1] == 'B')
+            {
+              //strcat(Argument,argv[j]);
+              j++;
+              ArgNombre[1] = atoi(argv[j]);
+              j++;
+            }
+           else if(argv[j][1] == 'C')
+            {
+              //strcat(Argument,argv[j]);
+              j++;
+              ArgNombre[2] = atoi(argv[j]);
+              j++;
+            }
+
+            else if(argv[j][1] == 'e')
+            {
+              //strcat(Argument,argv[j]);
+              j++;
+              strcpy(ChaineAChercher,argv[j]);
+              //j++;
+            }
+
+            else if(argv[j][1] == 'm')
+            {
+              //strcat(Argument,argv[j]);
+              j++;
+              ArgNombre[3] = atoi(argv[j]);
+              j++;
+            }
+        }
+
+      else // Recuperer le reste ( Chaine a chercher + Liste Fichier
+        {
+          printf("Nom fichier : %s\n",argv[j]);
+          strcpy(NomFichier[TailleNomFichier],argv[j]);
+
+        //printf("Test\n");
+          if(TailleNomFichier != 0)
+          fprintf(fichierRecursif,"%s\n",argv[j]);
+
+          TailleNomFichier++;
+        }
+    }
+  if(strcmp(ChaineAChercher,"") == 0)
+    {
+      strcpy(ChaineAChercher,NomFichier[0]); // Chaine a rechercher
+      i = 1; // Changement de valeur du i pour le for permettant de parcourir le nom des fichiers
+    }
+
+  else
+    i = 0;
+
+  printf("Chaine a chercher : %s\n",ChaineAChercher);
+
+  SupprimerDoublons(Argument); // Permet de supprimer les doublons
+  printf("Argument : %s\n",Argument);
+
+
+  for(j=0; j<=strlen(Argument); j++) // Permet de supprimer le "-" du début
+    {
+      Argument[j] = Argument[j+1];
+    }
+
+  printf("Argument : %s\n",Argument);
+
+  nbFichier = TailleNomFichier; // Connaitre le nombre de fichier
+
+  if(i == 1) // Cas ou NomFichier[0] = ChaineAChercher
+    {
+      nbFichier = TailleNomFichier - 1;
+    }
+
+  printf("NbFichier : %d\n",nbFichier);
+
+  if(nbFichier == 0)
+    {
+      char ** tableau1 = NULL;
+      FunctionGrepWithArguments(tableau1,ChaineAChercher,0,Argument,"",nbFichier,NombreDeLine,ArgNombre);
+    }
+
+
+  // ##################################################################################################
+
+  if(isWrong(Argument, argc) == 1)
+      return 0;
+
+  // ##################################################################################################
+
+   // Enregistrement dans un fichier texte
+    if(strstr(Argument,"R"))
+    {
+       for(i;i<TailleNomFichier;i++)
+       {
+           fclose(fichierRecursif);
+           fichierRecursif = fopen("ListeFichier.txt","w+");
+           ListeRecursivement(NomFichier[i],fichierRecursif);
+       }
+       nbFichier = 2;
+    }
+
+    rewind(fichierRecursif);
+    char chaine[TAILLE_MAX];
+
+    while(fgets(chaine, TAILLE_MAX, fichierRecursif) != NULL)
+    {
+      //printf("Chaine : %s\n",chaine);
+
+      char chaine1[TAILLE_MAX];
+      int h;
+      for(h = 0 ; h < strlen(chaine)-1;h++)
+      {
+          chaine1[h] = chaine[h];
+      }
+      chaine1[h] = '\0';
+
+        fichier = fopen(chaine1, "r"); // Ouverture du fichier
+
+        if (fichier != NULL)
+        {
+            //printf("Nombre de ligne : %d\n",NbLine(fichier)); // On affiche le nombre de ligne du fichier
+            NbreLine = NbLine(fichier);
+
+                // Initialisation du tableau a 2 dimension contenant le fichier
+            char tableau[NbreLine][TAILLE_MAX];
+
+            RemplirTableau(fichier,tableau); // Permet de remplir le tableau
+            FunctionGrepWithArguments(tableau,ChaineAChercher,NbreLine,Argument,chaine1,nbFichier,NombreDeLine,ArgNombre);
+        }
+
+        else
+        {
+            if(!strstr(Argument,"s"))
+                printf("grep: %s: No such file or directory\n",chaine1);
+        }
+    }
+    return;
+}
+
+

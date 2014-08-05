@@ -1,0 +1,571 @@
+# depslib dependency file v1.0
+1353537593 source:c:\users\gogus\desktop\grep\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"grep.h"
+	"utils.h"
+
+1352141656 c:\users\gogus\desktop\grep\grep.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1352037853 c:\users\gogus\desktop\grep\utils.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1352037969 source:c:\users\gogus\desktop\grep\utils.c
+	"utils.h"
+
+1353537580 source:c:\users\gogus\desktop\grep\grep.c
+	"grep.h"
+
+1355322977 source:c:\users\vladk\dropbox\développement\c\grep\diego\grep.v2\grep\utils.c
+	"utils.h"
+
+1355311232 c:\users\vladk\dropbox\développement\c\grep\diego\grep.v2\grep\utils.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1355322949 source:c:\users\vladk\dropbox\développement\c\grep\diego\grep.v2\grep\grep.c
+	"grep.h"
+	<string.h>
+
+1355311333 c:\users\vladk\dropbox\développement\c\grep\diego\grep.v2\grep\grep.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utils.h"
+
+1355311258 source:c:\users\vladk\dropbox\développement\c\grep\diego\grep.v2\grep\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"grep.h"
+	"utils.h"
+	"errors.h"
+
+1355311305 source:c:\users\vladk\dropbox\développement\c\grep\diego\grep.v2\grep\errors.c
+	<stdio.h>
+	<stdlib.h>
+	"errors.h"
+
+1355311287 c:\users\vladk\dropbox\développement\c\grep\diego\grep.v2\grep\errors.h
+
+1355311306 source:e:\greppointzip\errors.c
+	<stdio.h>
+	<stdlib.h>
+	"errors.h"
+
+1355311288 e:\greppointzip\errors.h
+
+1355322950 source:e:\greppointzip\grep.c
+	"grep.h"
+	<string.h>
+
+1355311334 e:\greppointzip\grep.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utils.h"
+
+1355311234 e:\greppointzip\utils.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1355332309 source:e:\greppointzip\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"grep.h"
+	"utils.h"
+	"errors.h"
+
+1355323174 source:e:\greppointzip\utils.c
+	"utils.h"
+
+1355332504 source:r:\grep\grep v1.6\grep.c
+	"grep.h"
+	<string.h>
+
+1355311334 r:\grep\grep v1.6\grep.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utils.h"
+
+1355311234 r:\grep\grep v1.6\utils.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1355356396 source:r:\grep\grep v1.6\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"grep.h"
+	"utils.h"
+	"errors.h"
+	"arg_exception.h"
+
+1355311288 r:\grep\grep v1.6\errors.h
+
+1355323174 source:r:\grep\grep v1.6\utils.c
+	"utils.h"
+
+1355311306 source:r:\grep\grep v1.6\errors.c
+	<stdio.h>
+	<stdlib.h>
+	"errors.h"
+
+1355346192 r:\grep\grep v1.6\arg_exception.h
+
+1355346390 source:r:\grep\grep v1.6\arg_exception.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1355311306 source:e:\grep v1.6\errors.c
+	<stdio.h>
+	<stdlib.h>
+	"errors.h"
+
+1355311288 e:\grep v1.6\errors.h
+
+1355332504 source:e:\grep v1.6\grep.c
+	"grep.h"
+	<string.h>
+
+1355311334 e:\grep v1.6\grep.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utils.h"
+
+1355311234 e:\grep v1.6\utils.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1355397772 source:e:\grep v1.6\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"grep.h"
+	"utils.h"
+	"errors.h"
+	"arg_exception.h"
+
+1355396686 e:\grep v1.6\arg_exception.h
+
+1355323174 source:e:\grep v1.6\utils.c
+	"utils.h"
+
+1355398013 source:e:\grep v1.6\arg_exception.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1355393094 source:c:\users\gogus\desktop\grep\grep v1.7\errors.c
+	<stdio.h>
+	<stdlib.h>
+	"errors.h"
+
+1355311288 c:\users\gogus\desktop\grep\grep v1.7\errors.h
+
+1355394276 source:c:\users\gogus\desktop\grep\grep v1.7\grep.c
+	"grep.h"
+	<string.h>
+
+1355311334 c:\users\gogus\desktop\grep\grep v1.7\grep.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utils.h"
+
+1355346802 c:\users\gogus\desktop\grep\grep v1.7\utils.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1355394266 source:c:\users\gogus\desktop\grep\grep v1.7\utils.c
+	"utils.h"
+
+1355402527 source:c:\users\gogus\desktop\grep\grep v1.7\arg_exception.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1355402562 source:c:\users\gogus\desktop\grep\grep v1.7\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"grep.h"
+	"utils.h"
+	"errors.h"
+	"arg_exception.h"
+
+1355402271 c:\users\gogus\desktop\grep\grep v1.7\arg_exception.h
+
+1355400869 source:c:\users\gogus\desktop\grep\grep v1.7\recursivite.c
+	"recursivite.h"
+
+1355400492 c:\users\gogus\desktop\grep\grep v1.7\recursivite.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<sys/types.h>
+	<dirent.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<time.h>
+	<unistd.h>
+	"grep.h"
+	"utils.h"
+
+1355393094 source:c:\users\gogus\desktop\grep\grep v1.8\errors.c
+	<stdio.h>
+	<stdlib.h>
+	"errors.h"
+
+1355311288 c:\users\gogus\desktop\grep\grep v1.8\errors.h
+
+1355404642 source:c:\users\gogus\desktop\grep\grep v1.8\grep.c
+	"grep.h"
+	<string.h>
+
+1355311334 c:\users\gogus\desktop\grep\grep v1.8\grep.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utils.h"
+
+1355346802 c:\users\gogus\desktop\grep\grep v1.8\utils.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1355403844 source:c:\users\gogus\desktop\grep\grep v1.8\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"grep.h"
+	"utils.h"
+	"errors.h"
+	"arg_exception.h"
+
+1355402271 c:\users\gogus\desktop\grep\grep v1.8\arg_exception.h
+
+1355394266 source:c:\users\gogus\desktop\grep\grep v1.8\utils.c
+	"utils.h"
+
+1355404642 source:c:\users\gogus\desktop\grep\grep v1.8\arg_exception.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1355400869 source:c:\users\gogus\desktop\grep\grep v1.8\recursivite.c
+	"recursivite.h"
+
+1355400492 c:\users\gogus\desktop\grep\grep v1.8\recursivite.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<sys/types.h>
+	<dirent.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<time.h>
+	<unistd.h>
+	"grep.h"
+	"utils.h"
+
+1355774893 source:c:\users\gogus\desktop\grep v1.8\grep.c
+	"grep.h"
+	<string.h>
+
+1355311334 c:\users\gogus\desktop\grep v1.8\grep.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utils.h"
+
+1355774695 c:\users\gogus\desktop\grep v1.8\utils.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1355403844 source:c:\users\gogus\desktop\grep v1.8\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"grep.h"
+	"utils.h"
+	"errors.h"
+	"arg_exception.h"
+
+1355311288 c:\users\gogus\desktop\grep v1.8\errors.h
+
+1355402271 c:\users\gogus\desktop\grep v1.8\arg_exception.h
+
+1355771948 source:c:\users\gogus\desktop\grep v1.8\recursivite.c
+	"recursivite.h"
+
+1355400492 c:\users\gogus\desktop\grep v1.8\recursivite.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<sys/types.h>
+	<dirent.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<time.h>
+	<unistd.h>
+	"grep.h"
+	"utils.h"
+
+1355774910 source:c:\users\gogus\desktop\grep v1.8\utils.c
+	"utils.h"
+
+1355404642 source:c:\users\gogus\desktop\grep v1.8\arg_exception.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1355861698 source:c:\users\gogus\desktop\grep v1.8\errors.c
+	<stdio.h>
+	<stdlib.h>
+	"errors.h"
+
+1355861806 source:c:\users\gogus\desktop\grep v1.8\reguliere.c
+	"reguliere.h"
+
+1355861806 c:\users\gogus\desktop\grep v1.8\reguliere.h
+	<stdio.h>
+	<stdlib.h>
+	<regex.h>
+	"regex.h"
+
+1184959280 c:\users\gogus\desktop\grep v1.8\regex.h
+	<sys/types.h>
+
+1356035531 source:c:\users\gogus\desktop\grep v1.9\grep.c
+	"grep.h"
+	<string.h>
+
+1356032610 c:\users\gogus\desktop\grep v1.9\grep.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utils.h"
+
+1356032610 c:\users\gogus\desktop\grep v1.9\utils.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+
+1355771948 source:c:\users\gogus\desktop\grep v1.9\recursivite.c
+	"recursivite.h"
+
+1355400492 c:\users\gogus\desktop\grep v1.9\recursivite.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<sys/types.h>
+	<dirent.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<time.h>
+	<unistd.h>
+	"grep.h"
+	"utils.h"
+
+1355861806 source:c:\users\gogus\desktop\grep v1.9\reguliere.c
+	"reguliere.h"
+
+1355944767 c:\users\gogus\desktop\grep v1.9\reguliere.h
+	<stdio.h>
+	<stdlib.h>
+	<regex.h>
+	"regex.h"
+
+1184959280 c:\users\gogus\desktop\grep v1.9\regex.h
+	<sys/types.h>
+
+1356035549 source:c:\users\gogus\desktop\grep v1.9\utils.c
+	"utils.h"
+
+1355404642 source:c:\users\gogus\desktop\grep v1.9\arg_exception.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1355861980 source:c:\users\gogus\desktop\grep v1.9\errors.c
+	<stdio.h>
+	<stdlib.h>
+	"errors.h"
+
+1355311288 c:\users\gogus\desktop\grep v1.9\errors.h
+
+1356032585 source:c:\users\gogus\desktop\grep v1.9\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"grep.h"
+	"utils.h"
+	"errors.h"
+	"arg_exception.h"
+
+1355402271 c:\users\gogus\desktop\grep v1.9\arg_exception.h
+
+1356214255 source:c:\users\gachette\desktop\grep v1.9\grep v1.9\errors.c
+	<stdio.h>
+	<stdlib.h>
+	"errors.h"
+
+1355311288 c:\users\gachette\desktop\grep v1.9\grep v1.9\errors.h
+
+1356212720 source:c:\users\gachette\desktop\grep v1.9\grep v1.9\grep.c
+	"grep.h"
+	<string.h>
+
+1356032610 c:\users\gachette\desktop\grep v1.9\grep v1.9\grep.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utils.h"
+
+1356212255 c:\users\gachette\desktop\grep v1.9\grep v1.9\utils.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+
+1356213458 source:c:\users\gachette\desktop\grep v1.9\grep v1.9\recursivite.c
+	"recursivite.h"
+
+1356212406 c:\users\gachette\desktop\grep v1.9\grep v1.9\recursivite.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<sys/types.h>
+	<dirent.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<time.h>
+	<unistd.h>
+	"grep.h"
+	"utils.h"
+
+1355861806 source:c:\users\gachette\desktop\grep v1.9\grep v1.9\reguliere.c
+	"reguliere.h"
+
+1355944767 c:\users\gachette\desktop\grep v1.9\grep v1.9\reguliere.h
+	<stdio.h>
+	<stdlib.h>
+	<regex.h>
+	"regex.h"
+
+1184959280 c:\users\gachette\desktop\grep v1.9\grep v1.9\regex.h
+	<sys/types.h>
+
+1356212680 source:c:\users\gachette\desktop\grep v1.9\grep v1.9\utils.c
+	"utils.h"
+
+1356212680 source:c:\users\gachette\desktop\grep v1.9\grep v1.9\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"grep.h"
+	"utils.h"
+	"errors.h"
+	"arg_exception.h"
+
+1356196411 c:\users\gachette\desktop\grep v1.9\grep v1.9\arg_exception.h
+
+1356213435 source:c:\users\gachette\desktop\grep v1.9\grep v1.9\arg_exception.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1356213435 source:c:\users\gogus\desktop\projet c\grep v2.0\arg_exception.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1358936705 source:c:\users\gogus\desktop\projet c\grep v2.0\errors.c
+	<stdio.h>
+	<stdlib.h>
+	"errors.h"
+
+1355311288 c:\users\gogus\desktop\projet c\grep v2.0\errors.h
+
+1358979886 source:c:\users\gogus\desktop\projet c\grep v2.0\grep.c
+	"grep.h"
+	<string.h>
+
+1356032610 c:\users\gogus\desktop\projet c\grep v2.0\grep.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utils.h"
+
+1356216019 c:\users\gogus\desktop\projet c\grep v2.0\utils.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+
+1356216019 source:c:\users\gogus\desktop\projet c\grep v2.0\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"grep.h"
+	"utils.h"
+	"errors.h"
+	"arg_exception.h"
+
+1356196411 c:\users\gogus\desktop\projet c\grep v2.0\arg_exception.h
+
+1358979886 source:c:\users\gogus\desktop\projet c\grep v2.0\recursivite.c
+	"recursivite.h"
+
+1356212406 c:\users\gogus\desktop\projet c\grep v2.0\recursivite.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<sys/types.h>
+	<dirent.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<time.h>
+	<unistd.h>
+	"grep.h"
+	"utils.h"
+
+1356216035 source:c:\users\gogus\desktop\projet c\grep v2.0\reguliere.c
+	"reguliere.h"
+
+1356216019 c:\users\gogus\desktop\projet c\grep v2.0\reguliere.h
+	<stdio.h>
+	<stdlib.h>
+	<regex.h>
+	"regex.h"
+
+1184959280 c:\users\gogus\desktop\projet c\grep v2.0\regex.h
+	<sys/types.h>
+
+1356216147 source:c:\users\gogus\desktop\projet c\grep v2.0\utils.c
+	"utils.h"
+

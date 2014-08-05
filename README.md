@@ -1,4 +1,2 @@
-Development-C---ESGI
+My Grep
 ====================
-
-Exercises performed during the 4th year of study

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="arg_exception.c" open="1" top="0" tabpos="13">
+		<Cursor position="3242" topLine="0" />
+	</File>
+	<File name="arg_exception.h" open="1" top="0" tabpos="10">
+		<Cursor position="41" topLine="0" />
+	</File>
+	<File name="errors.c" open="1" top="0" tabpos="5">
+		<Cursor position="138" topLine="0" />
+	</File>
+	<File name="errors.h" open="1" top="0" tabpos="6">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="grep.c" open="1" top="0" tabpos="4">
+		<Cursor position="2299" topLine="0" />
+	</File>
+	<File name="grep.h" open="1" top="0" tabpos="3">
+		<Cursor position="62" topLine="0" />
+	</File>
+	<File name="main.c" open="1" top="1" tabpos="9">
+		<Cursor position="2364" topLine="0" />
+	</File>
+	<File name="recursivite.c" open="1" top="0" tabpos="7">
+		<Cursor position="403" topLine="3" />
+	</File>
+	<File name="recursivite.h" open="1" top="0" tabpos="11">
+		<Cursor position="289" topLine="0" />
+	</File>
+	<File name="reguliere.c" open="1" top="0" tabpos="12">
+		<Cursor position="212" topLine="4" />
+	</File>
+	<File name="reguliere.h" open="1" top="0" tabpos="8">
+		<Cursor position="214" topLine="0" />
+	</File>
+	<File name="utils.c" open="1" top="0" tabpos="1">
+		<Cursor position="4966" topLine="158" />
+	</File>
+	<File name="utils.h" open="1" top="0" tabpos="2">
+		<Cursor position="601" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>
